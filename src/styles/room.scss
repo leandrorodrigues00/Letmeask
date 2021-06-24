@@ -15,6 +15,16 @@
             max-height: 45px;
         }
 
+        >div{
+            display: flex;
+            gap: 16px;
+
+            button{
+                height: 48px;
+            }
+
+        }
+
 
     }
 
@@ -104,6 +114,11 @@
                 }
                
             }
+        }
+
+        .question-list{
+            margin-top: 32px;
+
         }
     }
 }
