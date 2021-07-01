@@ -35,7 +35,8 @@
 
 
     p {
-        color: #29292e
+        color: #29292e;
+        word-wrap: break-word;
     }
 
     footer {
@@ -101,4 +102,19 @@
 
     }
 
+
+
+    @media (max-width: 790px){
+    
+ 
+        width: 96%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15px;
+    
+    
+    }
+
+  
 }
+

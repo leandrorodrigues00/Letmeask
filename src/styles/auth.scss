@@ -1,4 +1,9 @@
-#page-auth{
+html {
+
+    font-size: 62.5%;
+}
+
+#page-auth {
     display: flex;
     align-items: stretch;
     height: 100vh;
@@ -13,35 +18,35 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 120px 80px;
-    
+        padding: 12.0rem 8.0rem;
 
 
-    img{
-        max-width: 320px;
+
+        img {
+            max-width: 320px;
+        }
+
+        strong {
+            font: 700 3.6rem 'Poppins', sans-serif;
+            line-height: 4.2rem;
+            margin-top: 1.6rem;
+
+        }
+
+        p {
+            font-size: 2.4rem;
+            line-height: 3.2rem;
+            margin-top: 1.6rem;
+            color: #f8f8f8;
+        }
+
     }
-
-    strong {
-        font:  700 36px 'Poppins', sans-serif;
-        line-height: 42px;
-        margin-top: 16px;
-
-    }
-
-    p{
-        font-size: 24px
-        line-height 32px;
-        margin-top: 16px;
-        color: #f8f8f8;
-    }
-
- }
 
 
     main {
         flex: 8;
 
-        padding: 0 32px; 
+        padding: 0 3.2rem;
 
         display: flex;
         align-items: center;
@@ -49,29 +54,29 @@
     }
 
 
-    .main-content{
+    .main-content {
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
         width: 100%;
         max-width: 320px;
         align-items: stretch;
         text-align: center;
     }
 
-    > img {
+    >img {
         align-self: center;
     }
 
-    h2{
-        font-size: 24px;
-        margin: 64px 0 24px;
-        font-family: 'Poppins' , sans-serif;
+    h2 {
+        font-size: 2.4rem;
+        margin: 6.4rem 0 2.4rem;
+        font-family: 'Poppins', sans-serif;
 
     }
 
 
-    form{
-        input{
+    form {
+        input {
             height: 50px;
             border-radius: 8px;
             padding: 0 16px;
@@ -80,23 +85,24 @@
 
         }
 
-        button{
+        button {
             margin-top: 16px;
         }
 
 
-        button, input {
+        button,
+        input {
             width: 100%;
         }
     }
 
 
-    p{
-        font-size:14px;
+    p {
+        font-size: 14px;
         color: #737380;
         margin-top: 16px;
 
-        a{
+        a {
             color: #e559f9
         }
     }
@@ -106,7 +112,7 @@
 
 
 
-.create-room{
+.create-room {
     margin-top: 64px;
     height: 50px;
     border-radius: 8px;
@@ -119,17 +125,17 @@
     align-items: center;
 
     cursor: pointer;
-    border:0;
+    border: 0;
 
     transition: filter 0.2s;
 
 
-    img{
+    img {
         margin-right: 8px;
 
     }
 
-    &:hover{
+    &:hover {
         filter: brightness(0.9);
     }
 
@@ -137,7 +143,7 @@
 }
 
 
- .separator {
+.separator {
     font-size: 14px;
     color: #a8a8b3;
 
@@ -146,7 +152,7 @@
     align-items: center;
 
 
-    &::before{
+    &::before {
         content: '';
         flex: 1;
         height: 1px;
@@ -155,7 +161,7 @@
 
     }
 
-    &::after{
+    &::after {
 
         content: '';
         flex: 1;
@@ -168,6 +174,78 @@
 
 
 
- }
+}
+
+@media (max-width: 1312px) {
+
+    #page-auth aside {
+
+        p,
+        strong {
+            text-align: center;
+        }
+    }
 
 
+}
+
+@media(max-width:855px) {
+
+    #page-auth aside img {
+        max-width: 200px;
+         
+    }
+
+}
+
+@media(max-width:620px) {
+
+    html {
+        font-size: 40%;
+    }
+
+    #page-auth {
+
+        aside {
+            height: 50%;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                max-width: 200px;
+
+            }
+
+            p {}
+        }
+
+
+        main {
+            height: 50%;
+            width: 100%;
+
+            .main-content {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .separator::before{
+                    content: '';
+                    flex: 1;
+                    height: 1px;
+                    background: red;
+                    margin-left: 16px;
+                }
+
+            }
+        }
+
+    }
+
+
+
+}
