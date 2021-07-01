@@ -56,4 +56,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 ---
 
-Aplicação feita para estudos junto a RocketSeat 👋🏻 [Participe da comunidade](https://discord.gg/gKUVrzrPrU)
+Aplicação feita para estudos junto a RocketSeat 👋🏻 
