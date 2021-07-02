@@ -12,7 +12,7 @@
     <img alt="Letmeask" src=".github/cover.svg" />
   </h1>
   <p align="center">
-  <a href="https://letmeask-14044.web.app/">Visite o site aqui</a><br>
+  <a href="https://letmeask-14044.web.app/" target="_blank">Visite o site aqui</a><br>
 </p>
 
 <br>
