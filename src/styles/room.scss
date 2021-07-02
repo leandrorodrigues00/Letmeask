@@ -127,13 +127,22 @@
 
     @media (max-width: 790px){
 
-        main form textarea{
+        main{
+         .room-title h1{
+            margin-left: 8px;
+
+         }
+             
+            
+            form textarea{
             width: 96%;
             display: block;
             margin-left: auto;
             margin-right: auto;
             
         }
+
+    } 
     }
 
     @media (max-width:582px){

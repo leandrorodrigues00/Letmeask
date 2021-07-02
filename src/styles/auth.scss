@@ -198,48 +198,41 @@ html {
 
 }
 
-@media(max-width:620px) {
+@media (max-width:620px) {
 
     html {
         font-size: 40%;
     }
 
     #page-auth {
+        flex-direction: column-reverse;
+         margin:0;
 
         aside {
-            height: 50%;
-            width: 100%;
-            position: fixed;
-            bottom: 0;
-            display: flex;
+        
+         
             align-items: center;
-            justify-content: center;
+            text-align: center;
+            height: 100%;
+            padding:0;
 
             img {
                 max-width: 200px;
 
             }
 
-            p {}
+            
         }
 
 
         main {
-            height: 50%;
-            width: 100%;
+            flex:7;
+            
 
             .main-content {
                 display: flex;
                 align-items: center;
                 justify-content: center;
-
-                .separator::before{
-                    content: '';
-                    flex: 1;
-                    height: 1px;
-                    background: red;
-                    margin-left: 16px;
-                }
 
             }
         }
@@ -247,5 +240,9 @@ html {
     }
 
 
+    
+    button.create-room{
+        padding: 8px;
+    }
 
 }
