@@ -38,8 +38,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Clone o projeto e acesse a pasta do mesmo.
 
 ```bash
-$ git clone https://github.com/rocketseat-education/nlw-06-reactjs
-$ cd nlw-06-reactjs
+$ git clone https://github.com/leandrorodrigues00/Letmeask.git
+$ cd Letmeask
 ```
 
 Para iniciá-lo, siga os passos abaixo:
@@ -67,4 +67,6 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 ---
 
-Aplicação feita para estudos junto a RocketSeat 👋🏻 
+<p align="center">
+  Made with 💜; by  Leandro Rodrigues
+</p>
