@@ -59,6 +59,7 @@ Lembrando que será necessário criar uma conta no [Firebase](https://firebase.g
 Letmeask é perfeito para criadores de conteúdos poderem criar salas de Q&A com o seu público, de uma forma muito organizada e democrática. 
 
 Basta criar uma sala, após isso é só compartilhar o código com os expectadores, assim podem entrar na sala e fazer perguntas, bem como dar likes nas melhores perguntas !
+
 Este é um projeto desenvolvido durante a **[Next Level Week Together](https://nextlevelweek.com/)**, apresentada dos dias 20 a 27 de Junho de 2021.
 
 
